@@ -23,37 +23,58 @@ Explore how different speed zones impact the type and severity of accidents.
 Analyze the correlation between speed limits and accident outcomes.
 
 
-3. Machine Learning Models
-Classification Models
-Severity Prediction: Build a model to predict the severity of an accident based on features such as accident type, light conditions, speed zone, etc.
-Accident Type Prediction: Predict the type of accident (collision, vehicle overturn, etc.) using features like time, road geometry, light conditions, etc.
+2. Machine Learning Models
+   
+Classification Models:
 
-Clustering Models
-Accident Hotspot Identification: Use clustering techniques like K-Means to identify accident hotspots based on location data.
+- Severity Prediction: Build a model to predict the severity of an accident based on features such as accident type, light conditions, speed zone, etc.
+- Accident Type Prediction: Predict the type of accident (collision, vehicle overturn, etc.) using features like time, road geometry, light conditions, etc.
 
-Time Series Analysis
-Accident Forecasting: Forecast future accident occurrences using time series data, allowing for better resource allocation and preventive measures.
+Clustering Models:
 
-Anomaly Detection
-Outlier Identification: Detect unusual patterns or outliers in accident data that might require further investigation.
+- Accident Hotspot Identification: Use clustering techniques like K-Means to identify accident hotspots based on location data.
 
-5. Feature Engineering
-Time-Based Features
-Day/Night Indicator: Create a binary feature indicating whether the accident occurred during the day or night.
-Weekend Indicator: Add a feature to distinguish accidents occurring on weekends versus weekdays.
-Time of Day Categories: Convert the accident time into categories (e.g., morning, afternoon, evening, night).
-Interaction Features
-Light Condition and Road Geometry: Combine these features to see if certain road types under specific lighting conditions are more dangerous.
-Speed Zone and Accident Type: Interaction between speed zones and accident types could reveal higher-risk combinations.
-Derived Severity Levels
-Binary Classification for Severity: Simplify severity into a binary outcome (e.g., minor vs. major) for certain models.
-Geographical Features
-Proximity to Intersection: Create a feature to measure how close an accident is to an intersection.
-Urban vs. Rural Indicator: Determine if an accident occurred in an urban or rural setting based on node ID or road type.
-6. Potential Use Cases
-Traffic Safety Policy Recommendations
-By analyzing patterns and predicting risks, you can help shape policies for traffic safety improvements.
-Resource Allocation
-Predicting where and when accidents are most likely to occur can aid in the allocation of resources like traffic patrols and emergency services.
-Driver Assistance Systems
-Insights from the analysis can be used to enhance driver assistance systems in vehicles, potentially warning drivers about high-risk conditions.
+Time Series Analysis:
+
+- Accident Forecasting: Forecast future accident occurrences using time series data, allowing for better resource allocation and preventive measures.
+
+Anomaly Detection:
+
+- Outlier Identification: Detect unusual patterns or outliers in accident data that might require further investigation.
+
+3. Feature Engineering
+   
+Time-Based Features:
+
+- Day/Night Indicator: Create a binary feature indicating whether the accident occurred during the day or night.
+- Weekend Indicator: Add a feature to distinguish accidents occurring on weekends versus weekdays.
+- Time of Day Categories: Convert the accident time into categories (e.g., morning, afternoon, evening, night).
+
+Interaction Features:
+
+- Light Condition and Road Geometry: Combine these features to see if certain road types under specific lighting conditions are more dangerous.
+- Speed Zone and Accident Type: Interaction between speed zones and accident types could reveal higher-risk combinations.
+  
+Derived Severity Levels:
+
+- Binary Classification for Severity: Simplify severity into a binary outcome (e.g., minor vs. major) for certain models.
+  
+Geographical Features:
+
+- Proximity to Intersection: Create a feature to measure how close an accident is to an intersection.
+- Urban vs. Rural Indicator: Determine if an accident occurred in an urban or rural setting based on node ID or road type.
+
+
+4. Potential Use Cases
+   
+Traffic Safety Policy Recommendations:
+
+- By analyzing patterns and predicting risks, you can help shape policies for traffic safety improvements.
+  
+Resource Allocation:
+
+- Predicting where and when accidents are most likely to occur can aid in the allocation of resources like traffic patrols and emergency services.
+  
+Driver Assistance Systems:
+
+- Insights from the analysis can be used to enhance driver assistance systems in vehicles, potentially warning drivers about high-risk conditions.
